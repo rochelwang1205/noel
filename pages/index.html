@@ -5,50 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="container">
+      <div class="d-flex justify-content-center my-4">
+        <div>
+        <img src="../assets/images/slogan.png" alt="slogan" class="img-fluid">
+        <div class="d-flex justify-content-around">
+          <div>
+            <h3>2B經驗</h3>
+            <p>內部監控系統、庫存系統、採購系統、行銷整合系統</p>
           </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+          <div>
+            <h3>2C經驗</h3>
+            <p>跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
           </div>
         </div>
       </div>
     </div>
+      <div>
+        <ul class="row g-4 d-flex flex-wrap justify-content-center portfolio-allCard">
+        </ul>
+     </div>  
+    </div>
+    <ul class="pagenation d-flex justify-content-center py-4">
+      <a href="#" class="page_num">
+        <li>1</li>
+      </a>
+      <a href="#" class="page_num">
+        <li>2</li>
+      </a>
+      <a href="#" class="page_num">
+        <li>3</li>
+      </a>
+    </ul>
+
+
 
     <%- include('./layout/footer'); -%>
 

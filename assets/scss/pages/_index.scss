@@ -1,3 +1,49 @@
-.index-title {
-  font-size: 100px;
+.noto-sans{
+  font-family: "Noto Sans TC", "Noto Sans", sans-serif;
+}
+img{
+  border-radius: 8px;
+  // &:hover{
+  //   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  // }
+}
+h3{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #3B3B3B;
+}
+p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #919191;
+  margin-bottom: 32px;
+}
+span{
+  color: #3B3B3B;
+  background-color: #F1F1F1;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.pagenation{
+  gap: 16px;
+}
+.page_num{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 2px 10px;
+  text-decoration: none;
+  color: black;
+  &:hover{
+
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+  }
 }
