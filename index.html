@@ -5,56 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/noel/assets/main-2402f613.js"></script>
-    <link rel="stylesheet" href="/noel/assets/main-79bf3f39.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/noel/assets/index-316c9418.js"></script>
+    <link rel="stylesheet" href="/noel/assets/index-9a20a0cc.css">
   </head>
   <body>
-    <h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="/noel/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
+    <div class="d-flex justify-content-center align-items-center">
+    <div class="py-4">
+        <a href="#">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="noel_logo">
+        </a>
     </div>
+    <div class="w-480">
+        <ul class="d-flex justify-content-between align-items-center">
+            <a href="#" class="text-decor-none link-black">
+                <li>首頁</li>
+            </a>
+            <a href="#" class="text-decor-none link-black">
+                <li>作品集</li>
+            </a>
+            <a href="#" class="text-decor-none link-black">
+                <li>服務項目</li>
+            </a>
+            <a href="#" class="text-decor-none link-black">
+                <li>部落格</li>
+            </a>
+            <a href="#" class="text-decor-none link-black">
+                <li>聯絡我</li>
+            </a>
+        </ul>
+    </div>
+</div>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="container">
+      <div class="d-flex justify-content-center my-4">
+        <div>
+        <img src="/noel/assets/slogan-d9ddf74d.png" alt="slogan" class="img-fluid">
+        <div class="d-flex justify-content-around">
+          <div>
+            <h3>2B經驗</h3>
+            <p>內部監控系統、庫存系統、採購系統、行銷整合系統</p>
           </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+          <div>
+            <h3>2C經驗</h3>
+            <p>跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
           </div>
         </div>
       </div>
     </div>
+      <div>
+        <ul class="row g-4 d-flex flex-wrap justify-content-center portfolio-allCard">
+        </ul>
+     </div>  
+    </div>
+    <ul class="pagenation d-flex justify-content-center py-4">
+      <a href="#" class="page_num">
+        <li>1</li>
+      </a>
+      <a href="#" class="page_num">
+        <li>2</li>
+      </a>
+      <a href="#" class="page_num">
+        <li>3</li>
+      </a>
+    </ul>
 
-    <footer class="footer">我是 footer</footer>
+
+
+    <footer class="footer d-flex justify-content-around">
+    <div class="call">
+        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="logo" class="mb-4">
+        <div class="mb-4">
+            <p>若有數位產品設計和開發相關問題</p>
+            <p>歡迎填寫表單，或直接與我聯絡！</p>
+        </div>
+        <a href="mailto:service@hexschool.com">service@hexschool.com</a>
+    </div>
+    <ul class="social-media">
+        <a href="#" class="mb-2">
+            <li class="button button-b"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg" alt="list-icon"></span>填寫表單</li>
+        </a>
+        <a href="#" class="mb-2">
+            <li class="button"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="ig"></span>hexschool_demo</li>
+        </a>
+        <a href="#">
+            <li class="button"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="FB"></span>hexschoolTW</li>
+        </a>
+    </ul>
+</footer>
     
   </body>
 </html>
