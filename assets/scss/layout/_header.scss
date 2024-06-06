@@ -1,9 +1,6 @@
 .text-decor-none{
   text-decoration: none;
 } 
-.w-480{
-  width: 480px;
-}
 .link-black{
   color: black;
 }
@@ -11,5 +8,13 @@
   outline: 1px solid #919191;
   :hover{
     outline: 2px solid #919191;
+  }
+}
+nav{
+  button span{
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
   }
 }
