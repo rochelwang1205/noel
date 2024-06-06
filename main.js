@@ -44,8 +44,8 @@ let data = [
 const list = document.querySelector(".portfolio-allCard");
 let str ='';
 data.forEach(function(item){
-  str+=` <li class="portfolio-card col-6">
-      <a href="#"><img src="${item.imgUrl}" alt="" class="portfolio-cardImg img-fluid"></a>
+  str+=` <li class="portfolio-card col col-12 col-md-6">
+      <a href="#"><img src="${item.imgUrl}" alt="portfolio_showcase" class="portfolio-cardImg img-fluid d-block portfolio-border"></a>
       <div class="ms-3">
         <h3 class="noto-sans portfolio-cardTitle">${item.title}</h3>
         <p class="noto-sans portfolio-cardText">${item.description}</p>

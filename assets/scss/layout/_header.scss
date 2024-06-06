@@ -7,3 +7,9 @@
 .link-black{
   color: black;
 }
+.selected-page{
+  outline: 1px solid #919191;
+  :hover{
+    outline: 2px solid #919191;
+  }
+}
