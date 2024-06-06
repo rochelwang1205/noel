@@ -8,47 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/noel/assets/index-316c9418.js"></script>
-    <link rel="stylesheet" href="/noel/assets/index-9a20a0cc.css">
+    <script type="module" crossorigin src="/noel/assets/index-f4cb796a.js"></script>
+    <link rel="stylesheet" href="/noel/assets/index-5803e5f3.css">
   </head>
   <body>
-    <div class="d-flex justify-content-center align-items-center">
-    <div class="py-4">
-        <a href="#">
-            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="noel_logo">
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="noel_logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">首頁</a>
+          <a class="nav-link" href="#">作品集</a>
+          <a class="nav-link" href="#">服務項目</a>
+          <a class="nav-link" href="#">部落格</a>
+          <a class="nav-link" href="#">聯絡我</a>
+        </div>
+      </div>
     </div>
-    <div class="w-480">
-        <ul class="d-flex justify-content-between align-items-center">
-            <a href="#" class="text-decor-none link-black">
-                <li>首頁</li>
-            </a>
-            <a href="#" class="text-decor-none link-black">
-                <li>作品集</li>
-            </a>
-            <a href="#" class="text-decor-none link-black">
-                <li>服務項目</li>
-            </a>
-            <a href="#" class="text-decor-none link-black">
-                <li>部落格</li>
-            </a>
-            <a href="#" class="text-decor-none link-black">
-                <li>聯絡我</li>
-            </a>
-        </ul>
-    </div>
-</div>
-
+  </nav>
     <div class="container">
       <div class="d-flex justify-content-center my-4">
         <div>
         <img src="/noel/assets/slogan-d9ddf74d.png" alt="slogan" class="img-fluid">
-        <div class="d-flex justify-content-around">
-          <div>
+        <div class="d-flex flex-wrap justify-content-around">
+          <div class="text-center">
             <h3>2B經驗</h3>
             <p>內部監控系統、庫存系統、採購系統、行銷整合系統</p>
           </div>
-          <div>
+          <div class="text-center">
             <h3>2C經驗</h3>
             <p>跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
           </div>
@@ -56,10 +48,9 @@
       </div>
     </div>
       <div>
-        <ul class="row g-4 d-flex flex-wrap justify-content-center portfolio-allCard">
+        <ul class="row g-4 d-flex justify-content-center portfolio-allCard">
         </ul>
      </div>  
-    </div>
     <ul class="pagenation d-flex justify-content-center py-4">
       <a href="#" class="page_num">
         <li>1</li>
@@ -71,10 +62,7 @@
         <li>3</li>
       </a>
     </ul>
-
-
-
-    <footer class="footer d-flex justify-content-around">
+    <footer class="footer d-flex flex-wrap justify-content-around">
     <div class="call">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg" alt="logo" class="mb-4">
         <div class="mb-4">
@@ -83,18 +71,18 @@
         </div>
         <a href="mailto:service@hexschool.com">service@hexschool.com</a>
     </div>
-    <ul class="social-media">
-        <a href="#" class="mb-2">
-            <li class="button button-b"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg" alt="list-icon"></span>填寫表單</li>
-        </a>
-        <a href="#" class="mb-2">
-            <li class="button"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="ig"></span>hexschool_demo</li>
-        </a>
-        <a href="#">
-            <li class="button"><span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="FB"></span>hexschoolTW</li>
-        </a>
+    <ul class="social-media p-0">
+        <li class="mb-2 button button-b"><a href="#" class="text-white">
+            <span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg" alt="list-icon"></span>填寫表單
+        </a></li>
+        <li class="mb-2 button"><a href="#">
+            <span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg" alt="ig"></span>hexschool_demo
+        </a></li>
+        <li class="mb-2 button"><a href="#">
+            <span><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg" alt="FB"></span>hexschoolTW
+        </a></li>
     </ul>
-</footer>
+</footer>  </div>
     
   </body>
 </html>
